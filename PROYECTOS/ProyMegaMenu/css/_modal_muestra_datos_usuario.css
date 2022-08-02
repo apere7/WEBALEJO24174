@@ -1,0 +1,257 @@
+.profile-info-name,
+.profile-info-value {
+    display: table-cell;
+    border-top: 1px dotted #D5E4F1;
+    vertical-align: middle;
+}
+
+.profile-info-name {
+    text-align: right;
+    padding: 1px 1px 1px 1px;
+    font-weight: 400;
+    color: #000000;
+    background-color: transparent;
+    width: 200px;
+}
+
+.profile-info-value {
+    padding: 1px 1px 1px 3px;
+    color: #920048;
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+.Linea00-Info {
+    display: table-row;
+}
+
+.Linea7A-CampoA1,
+.Linea7A-CampoA2,
+.Linea7A-CampoA3,
+.Linea7A-CampoA4,
+.Linea7A-CampoA5,
+.Linea7A-CampoA6,
+.Linea7A-CampoA7,
+.Linea7A-CampoB1,
+.Linea7A-CampoB2,
+.Linea7A-CampoB3,
+.Linea7A-CampoB4,
+.Linea7A-CampoB5,
+.Linea7A-CampoB6,
+.Linea7A-CampoB7,
+.Linea7B-CampoA1,
+.Linea7B-CampoA2,
+.Linea7B-CampoA3,
+.Linea7B-CampoA4,
+.Linea7B-CampoA5,
+.Linea7B-CampoA6,
+.Linea7B-CampoA7,
+.Linea7B-CampoB1,
+.Linea7B-CampoB2,
+.Linea7B-CampoB3,
+.Linea7B-CampoB4,
+.Linea7B-CampoB5,
+.Linea7B-CampoB6,
+.Linea7B-CampoB7,
+.Linea8A-CampoA1,
+.Linea8A-CampoA2,
+.Linea8A-CampoA3,
+.Linea8A-CampoA4,
+.Linea8A-CampoA5,
+.Linea8A-CampoA6,
+.Linea8A-CampoA7,
+.Linea8A-CampoA8,
+.Linea8A-CampoB1,
+.Linea8A-CampoB2,
+.Linea8A-CampoB3,
+.Linea8A-CampoB4,
+.Linea8A-CampoB5,
+.Linea8A-CampoB6,
+.Linea8A-CampoB7,
+.Linea8A-CampoB8 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1px 30px 1px 2px;
+    line-height: 29px;
+}
+
+.Linea7A-CampoA1,
+.Linea7A-CampoA2,
+.Linea7A-CampoA3,
+.Linea7A-CampoA4,
+.Linea7A-CampoA5,
+.Linea7A-CampoA6,
+.Linea7A-CampoA7,
+.Linea7B-CampoA1,
+.Linea7B-CampoA2,
+.Linea7B-CampoA3,
+.Linea7B-CampoA4,
+.Linea7B-CampoA5,
+.Linea7B-CampoA6,
+.Linea7B-CampoA7,
+.Linea8A-CampoA1,
+.Linea8A-CampoA2,
+.Linea8A-CampoA3,
+.Linea8A-CampoA4,
+.Linea8A-CampoA5,
+.Linea8A-CampoA6,
+.Linea8A-CampoA7,
+.Linea8A-CampoA8 {
+    /* text-align: center; */
+    background-color: rgb(208, 212, 223);
+    color: #000000;
+    font-weight: bold;
+    line-height: 29px;
+}
+
+.Linea7A-CampoB1,
+.Linea7A-CampoB2,
+.Linea7A-CampoB3,
+.Linea7A-CampoB4,
+.Linea7A-CampoB5,
+.Linea7A-CampoB6,
+.Linea7A-CampoB7,
+.Linea7B-CampoB1,
+.Linea7B-CampoB2,
+.Linea7B-CampoB3,
+.Linea7B-CampoB4,
+.Linea7B-CampoB5,
+.Linea7B-CampoB6,
+.Linea7B-CampoB7,
+.Linea8A-CampoB1,
+.Linea8A-CampoB2,
+.Linea8A-CampoB3,
+.Linea8A-CampoB4,
+.Linea8A-CampoB5,
+.Linea8A-CampoB6,
+.Linea8A-CampoB7,
+.Linea8A-CampoB8 {
+    border-top: 1px dotted #D5E4F1;
+    color: #920048;
+    background-color: transparent;
+}
+
+.Linea7A-CampoA1,
+.Linea7A-CampoB1,
+.Linea7B-CampoA1,
+.Linea7B-CampoB1,
+.Linea7A-CampoA7,
+.Linea7A-CampoB7,
+.Linea7B-CampoA7,
+.Linea7B-CampoB7 {
+    text-align: center;
+    width: 20px;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+.Linea7A-CampoA2,
+.Linea7A-CampoB2 {
+    width: 280px;
+}
+
+.Linea7A-CampoA3,
+.Linea7A-CampoB3 {
+    width: 280px;
+}
+
+.Linea7A-CampoA4,
+.Linea7A-CampoB4 {
+    text-align: center;
+    width: 200px;
+}
+
+.Linea7A-CampoA5,
+.Linea7A-CampoB5 {
+    width: 200px;
+}
+
+.Linea7A-CampoA6,
+.Linea7A-CampoB6 {
+    text-align: center;
+    width: 200px;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+.Linea7B-CampoA2,
+.Linea7B-CampoB2 {
+    text-align: right;
+    width: 150px;
+}
+
+.Linea7B-CampoA3,
+.Linea7B-CampoB3 {
+    width: 400px;
+}
+
+.Linea7B-CampoA4,
+.Linea7B-CampoB4 {
+    width: 100px;
+}
+
+.Linea7B-CampoA5,
+.Linea7B-CampoB5 {
+    text-align: center;
+    width: 80px;
+}
+
+.Linea7B-CampoA6,
+.Linea7B-CampoB6 {
+    text-align: center;
+    width: 100px;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+.Linea8A-CampoA1,
+.Linea8A-CampoB1 {
+    text-align: center;
+    width: 5%;
+}
+
+.Linea8A-CampoA2,
+.Linea8A-CampoB2 {
+    text-align: center;
+    width: 15%;
+}
+
+.Linea8A-CampoA3,
+.Linea8A-CampoB3 {
+    text-align: center;
+    width: 5%;
+}
+
+.Linea8A-CampoA4,
+.Linea8A-CampoB4 {
+    text-align: center;
+    width: 5%;
+}
+
+.Linea8A-CampoA5,
+.Linea8A-CampoB5 {
+    text-align: center;
+    width: 5%;
+}
+
+.Linea8A-CampoA6,
+.Linea8A-CampoB6 {
+    text-align: center;
+    width: 5%;
+}
+
+.Linea8A-CampoA7,
+.Linea8A-CampoB7 {
+    text-align: left;
+    width: 50%;
+}
+
+.Linea8A-CampoA8,
+.Linea8A-CampoB8 {
+    text-align: right;
+    width: 5%;
+}

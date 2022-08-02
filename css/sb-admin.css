@@ -1,0 +1,229 @@
+/*!
+ * Start Bootstrap - SB Admin v5.0.2 (https://startbootstrap.com/template-overviews/sb-admin)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/master/LICENSE)
+ */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+/*-------------------------------------------------------------------------------
+/*  CUERPO DE LA PAGINA                                                          
+/*-------------------------------------------------------------------------------*/
+
+body {
+    height: 100%;
+    /*	background-color		: rgba(112, 137, 219, 0.753);  */
+    /* Para navegadores que no admiten gradientes */
+    background-image: linear-gradient(to right, #E3D7D5, #DEEDED, #ECFAFA, #DEEDED, #E3D7D5);
+    /* 	background-image      	: url(../img/Fondo-01.jpg); */
+    /* La imagen utilizada de fondo           */
+    height: 100%;
+    /* Altura completa */
+    background-position: center;
+    /* Centrar y escalar la imagen muy bien.  */
+    background-repeat: repeat;
+    background-size: cover;
+    /*
+    -webkit-filter        	: blur(5px);
+    -moz-filter           	: blur(5px);
+    -o-filter             	: blur(5px);
+    -ms-filter            	: blur(5px);
+    filter                	: blur(5px);
+    */
+}
+
+
+/*	ENCABEZADO                                                          */
+
+#encabezado {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    Width: 100%;
+}
+
+
+/*-------------------------------------------------------------------------------
+/*  CONTENEDOR PRINCIPAL                                                         
+/*-------------------------------------------------------------------------------*/
+
+#wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#wrapper #content-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 80px;
+}
+
+body.fixed-nav #content-wrapper {
+    margin-top: 56px;
+    padding-left: 90px;
+}
+
+body.fixed-nav.sidebar-toggled #content-wrapper {
+    padding-left: 0;
+}
+
+@media ( min-width: 768px) {
+    body.fixed-nav #content-wrapper {
+        padding-left: 225px;
+    }
+    body.fixed-nav.sidebar-toggled #content-wrapper {
+        padding-left: 90px;
+    }
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background: rgba(64, 52, 53, 0.5);
+    line-height: 46px;
+}
+
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+    color: white;
+}
+
+.scroll-to-top:hover {
+    background: #cf224d;
+}
+
+.scroll-to-top i {
+    font-weight: 800;
+}
+
+.smaller {
+    font-size: 0.7rem;
+}
+
+.o-hidden {
+    overflow: hidden !important;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+
+/*-------------------------------------------------------------------------------
+/*    CARD-BODY                                                                  
+/*-------------------------------------------------------------------------------*/
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: -1.25rem;
+    right: -1rem;
+    opacity: 0.4;
+    font-size: 5rem;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+:root {
+    --input-padding-x: 0.75rem;
+    --input-padding-y: 0.75rem;
+}
+
+.card-login {
+    max-width: 25rem;
+}
+
+.card-register {
+    max-width: 40rem;
+}
+
+.form-label-group {
+    position: relative;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+    height: auto;
+}
+
+.form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::placeholder {
+    color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+}

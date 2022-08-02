@@ -1,0 +1,35 @@
+/*-------------------------------------------------------*/
+/*-- PIE DE PAGINA                                     --*/
+.pie-pagina {
+    padding                     : 1px 15px;
+    background-color            : rgba(14, 187, 92, 0.801);
+    border-top                  : 1px solid #ddd;
+    border-bottom-right-radius  : 3px;
+    border-bottom-left-radius   : 3px;
+    position                    : fixed;
+    left                        : 0;
+    height                      : 30px;
+    bottom                      : 0;
+    width                       : 100%; 
+}
+.pie-texto {
+    text-align                  : center;
+    color                       : rgb(255, 255, 255);
+    font-family                 : Cambria, Arial, Helvetica, sans-serif;
+    font-size                   : 20px;
+/* 
+    font-style                  : italic;       
+    font-weight                 : bold;    
+          */
+}
+
+
+/* .pie-pagina {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ } */

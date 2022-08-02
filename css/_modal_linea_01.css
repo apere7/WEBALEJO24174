@@ -1,0 +1,20 @@
+.modal-linea01 {
+    display: table-row;
+}
+
+.modal-linea01-titul,
+.modal-linea01-valor {
+    display: table-cell;
+    color: #070707;
+    border-top: 1px dotted #D5E4F1;
+}
+
+.modal-linea01-titul {
+    text-align: right;
+    padding: 1px 10px 5px 4px;
+    font-weight: 400;
+    color: #b80d0d;
+    background-color: transparent;
+    width: 200px;
+    vertical-align: middle;
+}

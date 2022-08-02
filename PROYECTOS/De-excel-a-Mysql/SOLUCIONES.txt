@@ -1,0 +1,13 @@
+
+
+URL: https://www.youtube.com/watch?v=4Sw24E5Hi5M
+
+Solucion de Problemas........
+Pregunta:
+Tengo un Excel que la celda está en formato fecha y cuando
+debo de importar se convierte de 30/04/2018 a 43220..
+
+Solucion:
+Hola, yo lo utilizo así y me sale correctamente:
+$objPHPExcel->getActiveSheet()->SetCellValue('A1', $row['fecha']);
+La variable $row['fecha'] la obtengo de la base de datos y viene en formato yyyy-mm-dd

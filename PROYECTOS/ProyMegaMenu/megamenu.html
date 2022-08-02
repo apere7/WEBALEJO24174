@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
+<meta name="description" content="Bootstrap navbar examples for any type of project, Bootstrap 4" />  
+
+<title>Demo - Bootstrap navbar megamenu dropdown. html code example </title>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+crossorigin="anonymous"></script>
+
+<!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+	// jQuery code
+
+	//////////////////////// Prevent closing from click inside dropdown
+    $(document).on('click', '.dropdown-menu', function (e) {
+      e.stopPropagation();
+    });
+    
+	
+}); // jquery end
+</script>
+
+<style type="text/css">
+	@media all and (min-width: 992px) {
+		.navbar{ padding-top: 0; padding-bottom: 0; }
+		.navbar .has-megamenu{position:static!important;}
+		.navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+		.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+	}
+</style>
+</head>
+<!-- =gray-#33FFB9-#33AAFF-#cedacd- ======================== COLORES -->
+<body style="background-color:#33FFB9;"> 
+                <div class="col-md-2" style="padding-left:0px;">
+                 <a><img src="imagenes/imagen01-cantv.gif" ></a>
+
+                </div>
+				
+
+
+<header class="section-header py-4">
+<div class="container">
+	<h2>Alejandro Pereira</h2>
+</div>
+</header> <!-- section-header.// -->
+
+<!-- ========================= SECTION CONTENT ========================= -->
+
+<div class="container">
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-light">
+
+  <a class="navbar-brand" href="https://www.youtube.com/watch?v=EZyLWaDrtbs" target="_blank" rel="noopener noreferrer">Relas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="main_nav">
+
+<ul class="navbar-nav">
+	<li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
+	<!-- comienzo del menu1 ****************-->
+<li class="nav-item dropdown has-megamenu">
+		<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Menu1  </a>
+	    <div class="dropdown-menu megamenu" role="menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="col-megamenu">
+                            	<h6 class="title">Title Menu Uno Disponible</h6>
+	                            <ul class="list-unstyled">
+	                                <li><a href="Aplicaciones/Pagina01.php">Pagina01-Disponible</a></li>
+	                                <li><a href="Aplicaciones/pagina02.html">Pagina02</a></li>
+	                                <li><a href="Aplicaciones/pagina03.php">Pagina03</a></li>
+	                                <li><a href="Aplicaciones/proyectos01.html">Proyecto01</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                            </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                        <div class="col-md-3">
+                        	<div class="col-megamenu">
+                            <h6 class="title">Title Menu Two</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="Aplicaciones/Organigrama01.html">Organigrama-tique</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                        <div class="col-md-3">
+                        	<div class="col-megamenu">
+                            <h6 class="title">Title Menu Three</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div>    
+                        <div class="col-md-3">
+                        	<div class="col-megamenu">
+                            <h6 class="title">Title Menu Four</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="Aplicaciones/multilevel.html">Menu-Multilevel</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                    </div><!-- end row --> 
+        </div> <!-- dropdown-mega-menu.// -->
+	</li>
+	<!-- fin del menu1 ****************-->	
+	
+
+	<!-- comienzo del menu2 ****************-->
+<li class="nav-item dropdown has-megamenu">
+		<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Menu2  </a>
+	    <div class="dropdown-menu megamenu" role="menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="col-megamenu">
+                            	<h6 class="title">Title Menu One</h6>
+	                            <ul class="list-unstyled">
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                            </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                        <div class="col-md-3">
+                        	<div class="col-megamenu">
+                            <h6 class="title">Title Menu Two</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                        <div class="col-md-3">
+                        	<div class="col-megamenu">
+                            <h6 class="title">Title Menu Three</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div>    
+                        <div class="col-md-3">
+                        	<div class="col-megamenu">
+                            <h6 class="title">Title Menu Four</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                    </div><!-- end row --> 
+        </div> <!-- dropdown-mega-menu.// -->
+	</li>
+	<!-- fin del menu2 ****************-->	
+	
+
+	<!-- comienzo del menu3 ****************-->	
+
+	<li class="nav-item dropdown has-megamenu">
+		<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Utilidades  </a>
+	    <div class="dropdown-menu megamenu" role="menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="col-megamenu">
+                            	<h6 class="title">Title Menu rrre</h6>
+	                            <ul class="list-unstyled">
+	                                <li><a href="https://davidpiesse.github.io/tailwind-md-colours/">Colores-Varios</a></li>
+									 <li><a href="https://davidpiesse.github.io/tailwind-md-colours/">Colores-Varios</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                                <li><a href="#">Custom Menu</a></li>
+	                            </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                        <div class="col-md-3">
+                        	<div class="col-megamenu">
+                            <h6 class="title">Title Menu Two</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                        <div class="col-md-3">
+                        	<div class="col-megamenu">
+                            <h6 class="title">Title Menu Three</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div>    
+                        <div class="col-md-3">
+                        	<div class="col-megamenu">
+                            <h6 class="title">Title Menu Four</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                    </div><!-- end row --> 
+        </div> <!-- dropdown-mega-menu.// -->
+	</li>
+</ul>
+
+
+<ul class="navbar-nav ml-auto">
+    <li class="nav-item active bg-danger"><a class="nav-link" href="cerrar_sesion.php""> <span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
+    <li class="nav-item dropdown">
+        <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Dropdown </a>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+          <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+        </ul>
+    </li>
+
+</ul>
+
+  </div> <!-- navbar-collapse.// -->
+
+</nav>
+
+
+<section class="section-content py-5">
+
+		<h6>Demo view: Navbar with megamenu dropdown</h6>
+        <p>Esta pagina esta creada con el proposito de tener la informacion a la mano de las actividades que realizo. <br>
+        y dispuesta a la Inducion de mis Compañeros de Trabajo. </p>
+		<p>Compartir Acción de solidaridad hacia otras personas.
+		El hecho de compartir hace referencia al darlo a otras personas en común de un
+		recurso o un espacio. En sentido estricto, hace referencia al disfrute simultáneo o
+		uso alternativo de un bien finito, como un monte públicos o un lugar de residencia.
+		En un sentido más amplio, compartir hace referencia a la concesión gratuita de un uso
+		que es susceptible de ser tratado como un bien sin rival por no ser tangible, como es la
+		información. Más ampliamente, puede hacer referencia al concepto de donar; 
+		el objeto compartido no vuelve a la persona que lo pone en circulación.
+		Compartir juega un rol muy importante en la economía del don, pero también en la economía de mercado,
+		ejemplo es el hecho de compartir vehículo en desplazamientos cortos y viajes.</p>
+
+		<p> Informacio tomada de, https://es.wikipedia.org/wiki/Compartir </p>
+
+		<a href="http://bootstrap-menu.com/detail-megamenu.html" target="_blank" class="btn btn-warning"> &laquo Back to tutorial or Download code</a>
+
+</section>
+
+</div><!-- container //  -->
+
+</body>
+<br><br><br><br><br><br><br><br><br>
+    <footer>
+		<div class="container bg-light">
+            <div class="row">
+                <!--Aqui se coloca informacion de la empresa, como su rif, pagina principal y enlaces varios a terminos y condiciones-->
+                <div class="col-sm-6" style="background-color:#007bff;height:40px;font-family:verdana,sans-serif;color:#FFFFFF;font-size:11px; ">
+                    <p style="padding-top:20px;"><span class="pull-left"><a href="http://www.cantv.com.ve/" target="_blank" style="color:#FFFFFF;"><strong>Cantv.com.ve</strong></a> | Rif J-00124134-5 | Todos los derechos reservados.</span></p>
+                </div>
+                <div class="col-sm-6" style="background-color:#007bff;height:40px;font-family:verdana,sans-serif;color:#FFFFFF;font-size:11px;">
+                    <p style="padding-top:20px;"><span class="pull-right"><a href="http://www.cantv.com.ve/seccion.asp?pid=1&sid=689" target="_blank" style="color:#FFFFFF;">Mapa del Sitio</a> | <a href="http://www.cantv.com.ve/seccion.asp?pid=1&sid=700" target="_blank" style="color:#FFFFFF;">Términos y Condiciones</a>
+                    </span></p>
+                </div>
+            </div>
+	    </div>
+    </footer>
+
+</html>
+
+
+

@@ -1,0 +1,246 @@
+<?php
+  require '../conexion2.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Pagina02</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	
+		<title>Vacaciones1</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery.dataTables.js" type="text/javascript"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+	
+		<style type="text/css">
+		@import "css/demo_table_jui.css";
+		@import "themes/smoothness/jquery-ui-1.8.4.custom.css";
+	</style>
+	
+		<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			$('#datatables').dataTable({
+				"sPaginationType":"full_numbers",
+				"aaSorting":[[0, "asc"]],
+				"bJQueryUI":true
+			});
+		})
+		
+		
+	</script>
+
+</head>
+
+
+<body style="background-color:#33FFB9;">
+		<img src="../imagenes/imagen01-cantv.gif" style="width:100%;">
+		<img src="../imagenes/ralla-roja.jpg" style="width:100%;">
+		
+		
+		<!-- Espacio para añadir los botones de los modals  
+		<a href="preivada_index.php"><li>Pasa A la Pagina </li></a> -->
+		
+		            <div class="row">
+				<h2 style="text-align:center">Pasos Iníciales si no tiene la carpeta 
+
+(Repositorios Para Transporte) Transporte-SVN-CORE. </h2>
+				<center><a href="../megamenu.html" class="btn btn-primary">Regresar</a></center>
+			</div>
+		
+       <!--     <div class="row">
+				<h2 style="text-align:center">Reporte de pruebas de parametros </h2>
+				<center><a href="menu_index.php" class="btn btn-primary">Regresar</a></center>
+			</div>   -->
+
+
+
+
+
+
+
+
+<pre> 
+ En el escritorio
+1) Checkout SVN
+	· En el escritorio deberá crear una carpeta de nombre: Repositorios Para Transportes
+	· Dentro de esa carpeta unas sub carpeta de nombre:  SACAS_DES   y   SACAS_QA
+	· Dar click derecho en cualquier parte del escritorio
+	<img src="../imagenes/SVN/svn01.jpg">
+	· Para copiar la de desarrollo seria así:
+	<img src="../imagenes/SVN/svn02.jpg">
+	
+	· Para realizar el CHECKOUT  que copiar Elemento en  carpeta de QA seria así:
+	<img src="../imagenes/SVN/svn03.jpg">
+	
+	
+<h2 style="text-align:center">Pasos Para realizar Transporte </h2>	
+2) En el Escritorio del PC.
+	· Dar doble click en carpeta (Repositorio Para Transporte)
+	· En la sub-carpeta ( SACAS_DES )  dar click derecho   SVN UPDATE
+	· En la sub-carpeta ( SACAS_QA )  dar click derecho    SVN UPDATE 
+	· Luego dentro de la sub-carpeta ( SACAS_QA )
+	· Crear una carpeta 2014-N0004455314 
+	· Dentro de la Anterior Crear sub-carpetas  SacasWeb   o   SacasCore
+	· Copiar Manualmente los elementos solicitados
+	· Realizar el ADD y COMMIT
+	· Copiar MANUALMENTE  los elementos a transportar en la ruta /home/UsuariodeRed/TRANSPORTE
+	· Según sea el caso SacasCore ir al Paso 3
+	
+3) SacasCore Entrar en PUTTY  
+	· Usuario de Red 
+	· su - jbst02 y te pedirá el password(Cantvxxxx)
+	· Luego colocas m y se activara el menú
+	
+	Estas son las rutas hacia el ASACALINC01:
+	Si es *.jar              /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/lib
+	Si es *.properties       /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/conf
+	Si es *.aar              /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/deploy/axis2.war/WEB-INF/services
+
+	
+	
+	
+	Pasos por Menú SacasCore: (ASACALINC01) (IP=10.1.192.4)
+                              Tipos: (.jar) - (.properties) - (.aar)
+
+               [a]  apere7  ...................
+               [b]  eriosg01...................
+               [b]  dquiro  ...................
+               [d]  omarin  ...................
+               [e]  ogarc3  ...................
+               [f]  mvega1  ...................
+               [g]  crinco  ...................
+               [h]  cmont3  ...................
+               [i]  lgarci19...................
+
+               
+               [2]  ............................ Muestra Elementos que se encuentran en la carpeta:/home//TRANSPORTE
+               [3]  ............................ Copia archivos a las rutas que corresponda (ASACALINC01)
+               [4]  ............................ Activa el JBOSS  SERVIDOR (ASACALINC01)
+               [5]  ............................ Reporte de Transporte Realizado en (ASACALINC01) y enviado por Mail
+               [6]  ............................ Muestra Los Pasos Para Realizar Transportes
+
+
+               La ultima Opcion realizada fue :
+
+
+               [9]  ............................ Salir
+               =======================
+                -n Entre la opcion [1-9]:
+
+     Nota: El paso 4 genera el archivo para el paso5 (CopiaCore)
+
+
+	
+	
+	
+	
+Formulario Para Transporte SVN Aplicación: Sacas-Web Wsacalinc01
+- tipo: Instalación - IR - Nivelación - Otros 
+- Requerimiento O Tiquet: Nro. 4455314 
+- Repositorio Origen:  http://repositorio-des.cantv.com.ve/svn/SACAS/tags/Transporte/SacasWeb/
+- Repositorio Destino: http://repositorio-qa.cantv.com.ve/svn/SACAS/trunk/Transporte/SacasWeb/ 
+- Ruta: Si es *.war                           /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/deploy
+                Si es *.properties            /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/conf
+                Si es *.xml                   /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/conf
+                Si es exportar_tablas         /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/conf
+       
+- Nombre: Auditoria. properties
+- Revisión:            499
+Observaciones: Si se realiza por paquete o carpeta la revisión será una sola. 
+ 
+ 
+ 
+Formulario Para Transporte SVN Aplicación: Sacas-Core Asacalinc01
+- tipo: Instalación - IR - Nivelación - Otros 
+- Requerimiento O Tiquet: 
+- Repositorio Origen:  http://repositorio-des.cantv.com.ve/svn/SACAS/tags/Transporte/SacasCore/
+- Repositorio Destino: http://repositorio-qa.cantv.com.ve/svn/SACAS/trunk/Transporte/SacasCore/ 
+- Ruta: Si es *.jar      /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/lib            
+                Si es *.properties       /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/conf
+                Si es *.aar     /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/deploy/axis2.war/WEB-INF/services
+                           
+- Nombre: 
+- Revisión:            
+Observaciones: Si se realiza por paquete o carpeta la revisión será una sola. 
+ 
+ 
+					En  el caso de solicitar el log del portal
+EN LA RUTA:   /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/log
+Lista las ultimas 100 líneas del Log
+tail -n 100 server.log       
+
+Escribir la última parte del archivo a medida que va creciendo. 
+Esta opción es muy útil para monitorear archivos de registro que van creciendo con el tiempo.
+tail -f server.log
+
+					Para eliminar temporales en sacas
+• Bajar el servicio jbst02
+• Luego en la ruta cd /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/tmp
+           cd /tcantv/appl/jbst02/jboss-5.1.0.GA/server/ports-02/work 
+• luego dar el comando: rm -r *
+• Activar el servicio jbst02
+
+
+
+						NOTAS DEL MENU SACAS 
+• En el programa menucore.sh y menuweb.sh 
+• se genera un archivo tempcore.txt y tempweb.txt para los programas copiaweb.sh y copiacore.sh 
+• El cual se elimina cada vez que corres el copiaweb.sh y copiacore.sh
+
+Se le deberá colocar a cada usuario de sacas chmod 766 en el directorio /home/nombre_usuario_red/
+ 
+
+
+		Para consulta y Reset de usuarios con el usuario admqa en sacas 
+
+Sudo -l
+
+sudo /usr/bin/faillog -a
+
+sudo /usr/bin/faillog -r
+
+
+En caso de que al dar svn update de este mensaje:
+[jbst02@wsacalinc01]:/tcantv/appl/jbst02/svn_sacas_qa/Requerimientos>svn update
+svn: Working copy '.' locked
+svn: run 'svn cleanup' to remove locks (type 'svn help cleanup' for details)
+
+Utilizar este comando: svn cleanup
+
+
+
+	
+	
+	
+	
+	
+	
+	
+   </pre>
+
+
+
+
+
+
+</table>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+/*-------------------------------------------------------*/
+/*-- ESTILOS DE LETRAS                                  --*/
+
+.titulo-1 {
+      text-align                  : center;
+      color                       :#96225a;
+      font-family                 : Cambria, Arial, Helvetica, sans-serif;
+      font-size                   : 30px;
+      font-style                  : italic;
+      font-weight                 : bold;        
+}
+
+.titulo-2 {
+      text-align                  : lefth;
+      color                       :#149902;
+      font-family                 : Cambria, Arial, Helvetica, sans-serif;
+      font-size                   : 20px;
+   /* font-style                  : italic; */
+      font-weight                 : bold;        
+}
+
+.titulo-3 {
+      text-align                  : lefth;
+      color                       :#0e0592;
+      font-family                 : Cambria, Arial, Helvetica, sans-serif;
+      font-size                   : 20px;
+      /* font-style                  : italic; */
+      font-weight                 : bold;        
+}
